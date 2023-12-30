@@ -67,11 +67,11 @@
 
         layer_4 {
             bindings = <
-&trans  &trans           &trans            &trans          &trans                &trans         &trans                                      &trans  &trans            &trans                 &trans           &trans             &trans         &trans
-&trans  &kp SLASH        &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &trans                                      &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN       &kp HASH        &kp DOLLAR            &kp PERCENT    &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET         &kp AMPERSAND          &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans           &trans            &trans          &trans                &trans                         &trans      &trans                  &trans            &trans                 &trans           &trans             &trans         &trans
-&trans  &trans           &trans            &trans          &trans                               &trans  &trans  &trans      &trans  &trans  &trans                    &trans                 &trans           &trans             &trans         &trans
+&trans  &trans           &trans       &trans          &trans                &trans         &trans                                      &trans  &trans            &trans                 &trans           &trans             &trans         &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH        &kp DOLLAR            &kp PERCENT    &trans                                      &trans  &kp CARET         &kp AMPERSAND          &kp UNDERSCORE   &kp TILDE          &kp PIPE       &trans
+&trans  &kp FSLH         &kp LBKT     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &trans  &trans  &trans      &trans  &trans  &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&trans  &trans           &trans       &trans          &trans                &trans                         &trans      &trans                  &trans            &trans                 &trans           &trans             &trans         &trans
+&trans  &trans           &trans       &trans          &trans                               &trans  &trans  &trans      &trans  &trans  &trans                    &trans                 &trans           &trans             &trans         &trans
             >;
         };
 
