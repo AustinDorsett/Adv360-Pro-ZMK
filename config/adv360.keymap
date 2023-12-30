@@ -57,21 +57,21 @@
 
         keypad_and_nav {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 5      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp UP    &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp LEFT  &kp DOWN  &kp RIGHT  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp B     &kp E     &kp W      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 4      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp KP_N0  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 4
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5      &trans                                                   &mo 5      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp TAB    &kp U     &kp UP    &kp D      &kp F       &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&kp ESC    &kp ESC    &kp LEFT  &kp DOWN  &kp RIGHT  &kp DOLLAR  &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
+&kp LSHFT  &kp Z      &kp B     &kp E     &kp W      &kp B                            &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
+&mo 4      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT              &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp KP_N0  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 4
             >;
         };
 
         Brackets_and_symbols {
             bindings = <
-&trans  &trans           &trans       &trans          &trans                &trans         &trans                                      &trans  &trans            &trans                 &trans           &trans             &trans         &trans
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH        &kp DOLLAR            &kp PERCENT    &trans                                      &trans  &kp CARET         &kp AMPERSAND          &kp STAR         &kp TILDE          &kp PIPE       &trans
-&trans  &kp FSLH         &kp LBKT     &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &trans  &trans  &trans      &trans  &trans  &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &kp GRAVE        &trans       &trans          &kp UNDER             &trans                         &trans      &trans                  &trans            &kp EQUAL              &kp LS(PLUS)     &kp MINUS          &trans         &trans
-&trans  &trans           &trans       &trans          &trans                               &trans  &trans  &trans      &trans  &trans  &trans                    &trans                 &trans           &trans             &trans         &trans
+&trans  &trans           &trans        &trans          &trans                &trans         &trans                                      &trans  &trans            &trans                 &trans           &trans             &trans         &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH        &kp DOLLAR            &kp PERCENT    &trans                                      &trans  &kp CARET         &kp AMPERSAND          &kp STAR         &kp TILDE          &kp PIPE       &trans
+&trans  &kp FSLH         &kp LBKT      &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LESS_THAN  &trans  &trans  &trans      &trans  &trans  &trans  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&trans  &kp GRAVE        &kp QUESTION  &trans          &kp UNDER             &trans                         &trans      &trans                  &trans            &kp EQUAL              &kp LS(PLUS)     &kp MINUS          &trans         &trans
+&trans  &trans           &trans        &trans          &trans                               &trans  &trans  &trans      &trans  &trans  &trans                    &trans                 &trans           &trans             &trans         &trans
             >;
         };
 
