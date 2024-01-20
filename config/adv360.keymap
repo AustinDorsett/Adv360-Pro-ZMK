@@ -47,11 +47,11 @@
 
         default_layer {
             bindings = <
-&none      &none          &none      &none       &none         &none  &tog 1                                                         &mo 5      &none  &none     &none      &none  &none  &none
-&kp TAB    &kp SEMICOLON  &kp COMMA  &kp PERIOD  &kp P         &kp Y  &none                                                          &none      &kp F  &kp L     &kp C      &kp R  &kp G  &none
-&kp ESC    &kp A          &kp O      &kp E       &kp I         &kp U  &none     &kp LCTRL  &kp LALT            &kp LGUI   &kp RCTRL  &none      &kp D  &kp H     &kp T      &kp N  &kp S  &none
-&kp LSHFT  &kp SQT        &kp Q      &kp J       &kp K         &kp X                       &kp LEFT_WIN        &kp PG_UP                        &kp B  &kp M     &kp W      &kp V  &kp Z  &kp RSHFT
-&mo 3      &none          &kp CAPS   &kp DOWN    &kp UP_ARROW         &kp BSPC  &mo 1      &kp LEFT_SHIFT      &kp ENTER  &mo 2      &kp SPACE         &kp LEFT  &kp RIGHT  &none  &none  &to 4
+&none      &none          &none      &none       &none         &none  &tog 1                                                       &mo 5      &none  &none     &none      &none  &none  &none
+&kp TAB    &kp SEMICOLON  &kp COMMA  &kp PERIOD  &kp P         &kp Y  &none                                                        &none      &kp F  &kp L     &kp C      &kp R  &kp G  &none
+&kp ESC    &kp A          &kp O      &kp E       &kp I         &kp U  &none     &kp LCTRL  &kp LALT          &kp LGUI   &kp RCTRL  &none      &kp D  &kp H     &kp T      &kp N  &kp S  &none
+&kp LSHFT  &kp SQT        &kp Q      &kp J       &kp K         &kp X                       &kp LEFT_WIN      &kp PG_UP                        &kp B  &kp M     &kp W      &kp V  &kp Z  &kp RSHFT
+&mo 3      &none          &kp CAPS   &kp DOWN    &kp UP_ARROW         &kp BSPC  &mo 1      &kp DEL           &kp ENTER  &mo 2      &kp SPACE         &kp LEFT  &kp RIGHT  &none  &none  &to 4
             >;
         };
 
