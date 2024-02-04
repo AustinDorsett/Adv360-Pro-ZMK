@@ -20,7 +20,7 @@
         macro_chrome_tabs: macro_chrome_tabs {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F10 &kp LEFT &kp LEFT &kp LEFT &kp ENTER &kp F6>;
+            bindings = <&kp F10 &kp LEFT &kp LEFT &kp LEFT &kp ENTER &kp LC(F6)>;
             label = "MACRO_CHROME_TABS";
         };
 
