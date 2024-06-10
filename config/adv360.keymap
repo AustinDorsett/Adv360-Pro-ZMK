@@ -64,11 +64,11 @@
 
         keypad_and_nav {
             bindings = <
-&trans     &trans     &trans         &trans           &trans       &trans       &trans                                                       &mo 5      &trans     &trans    &trans        &trans      &trans     &trans
-&kp TAB    &kp TAB    &kp AT_SIGN    &kp POUND        &kp DOLLAR   &kp CARET    &none                                                        &none      &kp CARET  &kp N7    &kp NUMBER_8  &kp N9      &kp PLUS   &trans
-&kp ESC    &kp ESC    &kp AMPERSAND  &kp KP_SLASH     &kp STAR     &kp PERCENT  &none     &kp LCTRL  &kp LALT          &kp LGUI   &kp RCTRL  &none      &kp EQUAL  &kp N4    &kp N5        &kp N6      &kp MINUS  &trans
-&kp LSHFT  &kp GRAVE  &kp QUESTION   &kp EXCLAMATION  &kp UNDER    &kp PIPE                          &kp LEFT_WIN      &kp PG_UP                        &kp TILDE  &kp N1    &kp N2        &kp N3      &trans     &kp RSHFT
-&mo 3      &trans     &trans         &kp PAGE_DOWN    &kp PAGE_UP               &kp BSPC  &trans     &trans            &kp ENTER  &kp N0     &kp SPACE             &kp HOME  &kp END       &kp KP_DOT  &trans     &none
+&trans     &trans     &trans         &trans           &trans         &trans       &trans                                                       &mo 5      &trans     &trans    &trans        &trans      &trans     &trans
+&kp TAB    &kp TAB    &kp AT_SIGN    &kp POUND        &kp DOLLAR     &kp CARET    &none                                                        &none      &kp CARET  &kp N7    &kp NUMBER_8  &kp N9      &kp PLUS   &trans
+&kp ESC    &kp ESC    &kp AMPERSAND  &kp KP_SLASH     &kp STAR       &kp PERCENT  &none     &kp LCTRL  &kp LALT          &kp LGUI   &kp RCTRL  &none      &kp EQUAL  &kp N4    &kp N5        &kp N6      &kp MINUS  &trans
+&kp LSHFT  &kp GRAVE  &kp QUESTION   &kp EXCLAMATION  &kp UNDER      &kp PIPE                          &kp LEFT_WIN      &kp PG_UP                        &kp TILDE  &kp N1    &kp N2        &kp N3      &trans     &kp RSHFT
+&mo 3      &trans     &trans         &kp PAGE_UP      &kp PAGE_DOWN               &kp BSPC  &trans     &trans            &kp ENTER  &kp N0     &kp SPACE             &kp HOME  &kp END       &kp KP_DOT  &trans     &none
             >;
         };
 
