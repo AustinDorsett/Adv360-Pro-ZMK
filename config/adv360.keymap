@@ -63,7 +63,7 @@
         dap_continue: dap_continue {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SPACE &kp D &kp R>;
+            bindings = <&kp SPACE &kp D &kp C>;
             label = "DAP_CONTINUE";
         };
     };
