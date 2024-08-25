@@ -24,6 +24,48 @@
             label = "MACRO_CHROME_TABS";
         };
 
+        dap_step_into: dap_step_into {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp D &kp DOWN>;
+            label = "DAP_STEP_INTO";
+        };
+
+        dap_step_over: dap_step_over {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp D &kp RIGHT>;
+            label = "DAP_STEP_OVER";
+        };
+
+        dap_step_out: dap_step_out {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp D &kp UP>;
+            label = "DAP_STEP_OUT";
+        };
+
+        dap_step_back: dap_step_back {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp D &kp LEFT>;
+            label = "DAP_STEP_BACK";
+        };
+
+        dap_restart: dap_restart {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp D &kp R>;
+            label = "DAP_RESTART";
+        };
+
+        dap_continue: dap_continue {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SPACE &kp D &kp R>;
+            label = "DAP_CONTINUE";
+        };
+
         #endif
 
         hm: homerow_mods {
@@ -84,11 +126,11 @@
 
         fn {
             bindings = <
-&none   &none   &none     &none         &none      &none   &tog 1                                      &mo 5   &none   &kp F10  &kp F11  &kp F12  &none   &none
-&trans  &trans  &trans    &kp UP_ARROW  &trans     &trans  &none                                       &none   &trans  &kp F7   &kp F8   &kp F9   &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp F4   &kp F5   &kp F6   &trans  &trans
-&trans  &trans  &trans    &trans        &trans     &trans                  &trans      &trans                  &trans  &kp F1   &kp F2   &kp F3   &trans  &trans
-&trans  &trans  &trans    &trans        &trans             &trans  &trans  &trans      &trans  &trans  &trans          &trans   &trans   &trans   &trans  &trans
+&none   &none   &none         &none          &none           &none   &tog 1                                      &mo 5   &none   &kp F10         &kp F11         &kp F12        &none   &none
+&trans  &trans  &trans        &kp UP_ARROW   &trans          &trans  &none                                       &none   &trans  &kp F7          &kp F8          &kp F9         &trans  &trans
+&trans  &trans  &kp LEFT      &kp DOWN       &kp RIGHT       &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp F4          &kp F5          &kp F6         &trans  &trans
+&trans  &trans  &trans        &trans         &trans          &trans                  &trans      &trans                  &trans  &kp F1          &kp F2          &kp F3         &trans  &trans
+&trans  &trans  &dap_restart  &dap_step_out  &dap_step_into          &trans  &trans  &trans      &trans  &trans  &trans          &dap_step_back  &dap_step_over  &dap_continue  &trans  &trans
             >;
         };
 
